@@ -2473,8 +2473,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #447727;
+  border-color: #447727;
 }
 .btn-primary:hover {
   color: #fff;
@@ -10515,4 +10515,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 #ror {
   margin: 0px 0px 0px -10px;
+}
+
+.icons-wrapper {
+    padding-top: 23px;
 }
