@@ -10520,3 +10520,32 @@ section#contact form#contactForm :-ms-input-placeholder {
 .icons-wrapper {
     padding-top: 23px;
 }
+
+.icons-wrapper a:hover {
+  cursor: default;
+  color: #A6A6A6;
+}
+
+.icon-title {
+    display: none;
+
+}
+
+.my-3 a:hover + .icon-title {
+  display: flex;
+  justify-content: center;
+  line-height: 1.75;
+  background-color: #eef4a8;
+  font-size: 14px;
+  padding: 0px 6px 0px 6px;
+  border: 1px solid #eef4a8;
+  border-radius: 6px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.icon-title p {
+  margin-top: 10px;
+
+}
