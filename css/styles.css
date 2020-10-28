@@ -10448,7 +10448,7 @@ header.masthead .masthead-heading {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   text-align: center;
   align-items: center;
 }
