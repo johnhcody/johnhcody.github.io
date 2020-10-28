@@ -10149,7 +10149,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/splash.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10532,17 +10532,16 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .my-3 a:hover + .icon-title {
-  display: flex;
-  justify-content: center;
-  line-height: 1.75;
-  background-color: #eef4a8;
+  display: block;
+  /* justify-content: center; */
+  line-height: 1;
+  /* background-color: #eef4a8; */
   font-size: 14px;
   padding: 0px 6px 0px 6px;
-  border: 1px solid #eef4a8;
-  border-radius: 6px;
+  /* border: 1px solid #eef4a8;
+  border-radius: 6px; */
   position: absolute;
-  top: 20px;
-  right: 10px;
+  top: 50px;
 }
 
 .icon-title p {
