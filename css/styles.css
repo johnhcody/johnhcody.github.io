@@ -597,6 +597,7 @@ pre code {
 }
 .row {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin-right: -0.75rem;
   margin-left: -0.75rem;
@@ -10076,6 +10077,7 @@ img::-moz-selection {
   justify-content: center;
   padding: 0;
   border-radius: 100%;
+  margin: 3px 0px 4px 0px;
 }
 
 #mainNav {
@@ -10443,13 +10445,18 @@ header.masthead .masthead-heading {
   }
 }
 .team-member {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   margin-bottom: 3rem;
   text-align: center;
+  align-items: center;
 }
 .team-member img {
   width: 14rem;
   height: 14rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 .team-member h4 {
   margin-top: 1.5rem;
@@ -10550,4 +10557,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 .icon-title p {
   margin-top: 10px;
 
+}
+
+#friar {
+    background-color: white;
+    padding: 29px 0px 39px 0px;
 }
