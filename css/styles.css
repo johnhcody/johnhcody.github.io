@@ -10376,10 +10376,12 @@ header.masthead .masthead-heading {
 .timeline-body a {
   text-decoration: none;
   border-bottom: 1px solid transparent;
+  color:#6c757d;
 }
 
 .timeline-body a:hover {
   border-bottom: 1px solid #447727;
+  color: #447727;
 }
 
 @media (min-width: 768px) {
